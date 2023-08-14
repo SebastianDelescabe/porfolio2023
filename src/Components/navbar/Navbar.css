@@ -1,0 +1,203 @@
+.navbar__scroll {
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+}
+.navbar__scroll .navbar__container {
+  max-height: 5px;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  padding: 1.5rem 1rem;
+}
+/* MOBILE MENU */
+.navbar__container-links {
+  display: none;
+}
+.navbar__container-language,
+.navbar__container-hamburger {
+  display: flex;
+}
+
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--secondaryColor);
+  border-bottom: 1px solid #efb4274f;
+  max-height: 40px;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+}
+.navbar__container-hamburger svg {
+  fill: white !important;
+  color: white;
+  font-size: 30px;
+  margin-top: 5px;
+}
+.navbar__container-mobile {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-color: var(--secondaryColor);
+  animation: navbar__container-mobile 0.2s forwards;
+  transition: 0.5s ease;
+}
+.navbar__container .navbar__container-hamburger svg:last-child {
+  display: none;
+}
+.navbar__container-mobile .navbar__container-links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+.navbar__scroll .navbar__container-logo {
+  font-size: 15px;
+  transition: all 0.5 ease;
+}
+.navbar__container-mobile .navbar__container-logo {
+  display: block;
+  position: absolute;
+  top: 2%;
+  left: 43%;
+  font-size: 22px;
+  transition: all 0.5s ease;
+}
+.navbar__container-mobile .navbar__container-language {
+  display: none;
+}
+.navbar__container-mobile .navbar__container-hamburger svg:first-child {
+  display: none;
+}
+.navbar__container-mobile .navbar__container-hamburger svg:last-child {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.navbar__container-mobile .navbar__container-links a {
+  text-align: left;
+  margin: 1rem 0rem;
+  color: var(--primaryColor);
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar__container-mobile .navbar__container-links a::after {
+  display: none;
+}
+.navbar__container-language div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0rem;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.navbar__container-language div svg {
+  fill: var(--thirdColor);
+}
+/* COMPARTEN MOBILE Y DESKTOP */
+.navbar__container-logo {
+  border: 1px solid var(--primaryColor);
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
+  transition: all 0.5s ease;
+  font-size: 20px;
+}
+.navbar__container-logo a {
+  color: var(--primaryColor);
+}
+.navbar__container-logo:after {
+  content: "-";
+  background-color: var(--secondaryColor);
+  height: 10px;
+  position: relative;
+  left: 5px;
+  color: var(--secondaryColor);
+}
+.navbar__container-language a {
+  margin: 0 10px;
+  color: var(--thirdColor);
+}
+
+/* HOVER SEXY */
+.navbar__container-links a::after,
+.navbar__container-language a::after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  margin: 3px 0px;
+  display: block;
+  background-color: var(--primaryColor);
+  transition: 0.5s ease;
+}
+.navbar__container-links a:hover::after,
+.navbar__container-language a:hover::after {
+  width: 100%;
+}
+.navbar__container-language .active::after {
+  width: 100%;
+  background-color: var(--primaryColor);
+}
+@media screen and (min-width: 768px) {
+  .navbar__container-language div {
+    margin-top: 0.6rem;
+  }
+  .navbar__scroll .navbar__container {
+    padding: 1.5rem 0rem;
+  }
+  .navbar__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--secondaryColor);
+    margin: 0rem;
+    border-bottom: 1px solid #efb4274f;
+    padding: 1rem 0rem;
+    transition: all 0.5s ease;
+  }
+  .navbar__container-links,
+  .navbar__container-language {
+    display: flex;
+    gap: 1rem;
+  }
+  .navbar__container-links {
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar__container-links a,
+  .navbar__container-language a {
+    color: var(--thirdColor);
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-top: 1rem;
+  }
+  .navbar__container-links a:hover {
+    color: var(--primaryColor);
+    transition: all 0.5s ease;
+  }
+  .navbar__container-hamburger {
+    display: none;
+  }
+}
+
+@keyframes navbar__container-mobile {
+  from {
+    right: 1000px;
+  }
+  to {
+    right: 0px;
+  }
+}

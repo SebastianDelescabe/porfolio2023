@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.app__black {
+  background-color: var(--secondaryColor);
+  color: var(--thirdColor);
+  transition: 0.5s ease !important;
+}
+
+.app__white {
+  background-color: var(--backgroundWhite);
+  color: var(--secondaryColor);
+  transition: 0.5s ease !important;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+}

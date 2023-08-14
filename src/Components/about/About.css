@@ -1,0 +1,199 @@
+.about {
+  height: 100%;
+  width: 100%;
+  background: var(--secondaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  scroll-margin-top: 5rem;
+  flex-direction: column;
+}
+.about.app__white {
+  background-color: var(--backgroundWhite);
+}
+.about__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+.about__container-text-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+.about__container-text {
+  width: 100%;
+  border-right: unset;
+}
+.about__container-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1rem;
+}
+.about__container-image img {
+  height: 15rem;
+  border-radius: 50%;
+}
+.about__container-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem 0rem;
+}
+.about__container-text > span:first-child {
+  font-weight: 500;
+  color: var(--primaryColor);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.about__container-text > span:nth-child(2) {
+  font-weight: 800;
+  color: var(--primaryColor);
+  font-size: 2.5rem;
+}
+.about__container-text > span:nth-child(3) {
+  font-weight: 600;
+  color: rgb(121 120 120);
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.about__container-text a {
+  text-decoration: none;
+  background-color: var(--thirdColor);
+  color: var(--secondaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: unset;
+  padding: 0.5rem;
+  display: flex;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+.about__container-text a:last-child {
+  margin-left: 1rem;
+}
+.about__container-text a:hover {
+  background: transparent;
+  color: var(--thirdColor);
+  transition: all 0.5s ease;
+}
+
+.about__container-text div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about__container-text div:nth-child(3) {
+  display: block;
+  height: 5px;
+  width: 100px;
+  background: var(--primaryColor);
+  position: relative;
+  left: 23%;
+}
+.about__container-text p {
+  margin-block-start: 2.5em;
+  margin-block-end: 2.5em;
+  font-size: 1.15rem;
+  margin: 2.5em 1.5em;
+  text-align: left;
+  color: var(--thirdColor);
+}
+/* svg */
+.about__svg-bottom {
+  display: block;
+  fill: black;
+  transition: 0.5s ease;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: -1px;
+}
+.app__white .about__svg-bottom {
+  fill: var(--thirdColor);
+  transition: 0.5s ease;
+}
+.home__text {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .about__container-text a {
+    text-decoration: none;
+    background-color: var(--thirdColor);
+    color: var(--secondaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 0.5rem;
+    display: flex;
+    font-weight: 700;
+    transition: all 0.5s ease;
+  }
+  .about {
+    height: 100vh;
+    width: 100%;
+    background: var(--secondaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    scroll-margin-top: 2rem;
+    border-top: 1px solid var(--primaryColor);
+  }
+  .app__white.about {
+    background: white !important;
+  }
+  .app__white .about__container-text a:hover {
+    color: black;
+  }
+  .about__container-text div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .about__container-text p {
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+    font-size: 1.15rem;
+    margin-left: 0;
+    margin-right: 0;
+    color: var(--thirdColor);
+  }
+  .about__container-text {
+    width: 40%;
+    border-right: 1px solid white;
+    padding: 0rem;
+  }
+  .app__white .about__container-text {
+    border-right: 1px solid var(--primaryColor);
+  }
+  .about__container-image {
+    width: 30%;
+    padding-top: 0rem;
+  }
+  .about__container-image img {
+    height: 23rem;
+  }
+  .about__container-text-image {
+    flex-direction: row;
+  }
+  .about__container-text {
+    padding-right: 2rem;
+  }
+  .about__container-text {
+    text-align: left;
+  }
+  .about__container-text div:nth-child(3) {
+    position: relative;
+    left: unset;
+  }
+}
