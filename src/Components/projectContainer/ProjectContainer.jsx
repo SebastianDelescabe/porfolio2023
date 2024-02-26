@@ -64,6 +64,7 @@ export const ProjectContainer = (data) => {
                   href={project.livePreview}
                   aria-label='live preview'
                   className='link link--icon'
+                  target='_blanc'
                 >
                   <LaunchIcon />
                 </a>

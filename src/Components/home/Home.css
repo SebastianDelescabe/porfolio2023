@@ -29,7 +29,8 @@
 .home__container h2 {
   color: var(--primaryColor);
   font-weight: 400;
-  font-size: 25px;
+  font-size: 23px;
+  text-transform: uppercase;
 }
 .app__white .home__container p {
   color: var(--secondaryColor);
@@ -108,7 +109,8 @@
   .home__container h2 {
     color: var(--primaryColor);
     font-weight: 400;
-    font-size: 35px;
+    font-size: 33px;
+    text-transform: uppercase;
   }
   .app__white .home__container span {
     color: var(--secondaryColor);

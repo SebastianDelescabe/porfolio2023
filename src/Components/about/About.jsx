@@ -20,9 +20,10 @@ export const About = () => {
                                     <span >About Me</span>
                                     <div></div>
                                     <div>
-                                        <p>I am a computer programming student with knowledge in web development. I love creating applications with different functionalities and learning new technologies.</p>
-                                        <p>I would like to be able to apply the knowledge learned as part of work teams that allow me to develop my skills and grow professionally</p>
-                                        <p>I seek to expand my experience in the world of programming and meet new challenges where I can exploit my learning.</p>
+                                        <p>I love creating applications with different functionalities and learning new technologies.</p>
+                                        <p>Currently, I work as a frontend developer, and I enjoy bringing designs to life on the web.</p>
+                                        <p>I am seeking to expand my experience in the programming world and take on new challenges where I can apply my learning.</p>
+
                                     </div>
                                     <div>
                                         <a target="_blanc" href="https://drive.google.com/file/d/1AcTsIA6Kg-kWq8jKINCI9zdXCNnSqSkX/view?usp=drive_link">Download CV</a>
@@ -37,9 +38,10 @@ export const About = () => {
                                     <span >Sobre Mí</span>
                                     <div></div>
                                     <div>
-                                        <p>Me encanta crear aplicaciones con diferentes funcionalidades y aprender nuevas tecnologías.</p>
-                                        <p>Actualmente me encuentro trabajando como desarrollador frontend, me gusta llevar diseños a la realidad de la web.</p>
-                                        <p>Busco ampliar mi experiencia en el mundo de la programación y encontrarme con nuevos desafíos donde pueda explotar mi aprendizaje.</p>
+                                        <p>Me encanta crear aplicaciones con diversas funcionalidades y aprender nuevas tecnologías.</p>
+                                        <p>Actualmente estoy trabajando como desarrollador frontend; disfruto materializando diseños en la realidad de la web.</p>
+                                        <p>Busco ampliar mi experiencia en el mundo de la programación y enfrentarme a nuevos desafíos donde pueda aplicar y desarrollar mi aprendizaje.</p>
+
                                     </div>
                                     <div>
                                         <a target="_blanc" href="https://drive.google.com/file/d/1AcTsIA6Kg-kWq8jKINCI9zdXCNnSqSkX/view?usp=drive_link">Descargar CV</a>

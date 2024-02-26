@@ -3,6 +3,7 @@ const skills = [
     'CSS',
     'JavaScript',
     'React',
+    'NextJs',
     'Redux',
     'Git',
     'Node',
