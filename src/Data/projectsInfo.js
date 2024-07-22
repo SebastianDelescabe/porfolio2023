@@ -26,19 +26,22 @@ const projects = [
         livePreview: 'https://toyota-app-delescabe.netlify.app/',
     },
     {
-        name: 'Tienda Fishop',
+        name: 'Futbol APP',
         image: project3,
         descriptionES: [
-            'Tienda de artículos electrónicos en MercadoLibre maquetado con CSS y HTML',
-            'Productos personalizados en la página principal, consumiendo datos de la VIP de cada producto',
+            'Creado con NextJS y Redux para el manejo de estados globales.',
+            'Se puede buscar por equipos y mostrar el rendimiento del mismo dentro de las distintas competiciones y torneos en los cuales participa.',
+            'Consumo de una API de fútbol para generar consultas de datos de los equipos',
         ],
         descriptionEN: [
-            "MercadoLibre shop designed with CSS and HTML",
-            "Customized products on Home, fetching data from each product's VIP"
+            "Personal project created with NextJS and Redux for managing global states within the application.",
+            "You can search for teams and display their performance across various competitions and tournaments in which they are participating.",
+            "Consumption of a football API to generate data queries for teams."
+
         ],
-        stack: ['HTML', 'JavaScript', 'CSS'],
+        stack: ['HTML', 'JavaScript', 'CSS','Next JS','Redux'],
         sourceCode: '',
-        livePreview: 'https://www.fishop.com.ar/',
+        livePreview: 'https://futbol-app-delescabe.vercel.app/',
     },
     {
         name: 'DeleFlix',

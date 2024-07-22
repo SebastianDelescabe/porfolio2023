@@ -7,8 +7,6 @@ const skills = [
     'Redux',
     'Git',
     'Node',
-    'PostgreSQL',
-    'Express',
 ]
 
 export { skills }
