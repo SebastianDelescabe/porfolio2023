@@ -26,7 +26,7 @@ export const About = () => {
 
                                     </div>
                                     <div>
-                                        <a target="_blanc" href="https://drive.google.com/file/d/1uGmUOOOTqwWoRsgaFjY14imTewKrpLJv/view?usp=drive_link">Download CV</a>
+                                        <a target="_blanc" href="https://drive.google.com/file/d/14GmSvOwdX4_A3qIIL9p6VlEX1hYKNSBE/view?usp=drive_link">Download CV</a>
                                         <a href="#contact">Contact</a>
                                     </div>
                                 </div>
@@ -44,7 +44,7 @@ export const About = () => {
 
                                     </div>
                                     <div>
-                                        <a target="_blanc" href="https://drive.google.com/file/d/1oU1HSYzzqpBekdOgCcul1g6sjsc8KXnb/view?usp=drive_link">Descargar CV</a>
+                                        <a target="_blanc" href="https://drive.google.com/file/d/14GmSvOwdX4_A3qIIL9p6VlEX1hYKNSBE/view?usp=drive_link">Descargar CV</a>
                                         <a href="#contact">Contactame</a>
                                     </div>
                                 </div>
